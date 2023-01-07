@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: 'work sans';
+    font-style: normal;
+}
+/* Banner css */
+.banner{
+    background-image: url(/images/banner/banner2.png);
+    width: 100%;
+    height: 100em;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    text-align: right;
+    padding-top: 200px;
+    padding-left: 800px;
+    padding-right: 200px;
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-pera{
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+.pri-btn{
+    position: absolute;
+    right: 200px;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    border: 0px;
+    background-color: #F25B23 ;
+    width: 160px;
+    height: 64px;
+}
+
+/* My failures of previous year */
