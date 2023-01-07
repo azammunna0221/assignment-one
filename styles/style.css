@@ -107,6 +107,7 @@
     text-align: left;
     background-image:linear-gradient(to left, rgba(252, 248, 245, 0.14), rgba(215, 94, 53, 0.9)), url(../images/watch.png);
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 .mindset-text{
     margin: 50px;
