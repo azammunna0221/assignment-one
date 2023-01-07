@@ -18,16 +18,17 @@
     padding-right: 200px;
 }
 .banner-heading{
-    font-weight: 700;
+    font-weight: 900;
     font-size: 65px;
 }
 .banner-pera{
     font-size: 16px;
     padding-top: 24px;
     padding-bottom: 32px;
+    color: #444343;
 }
 .pri-btn{
-    
+    border-radius: 10px;
     right: 200px;
     font-weight: 600;
     font-size: 20px;
@@ -39,6 +40,9 @@
 }
 
 /* My failures of previous year */
+.sign{
+    color: rgb(35, 237, 28);
+}
 .failur {
     display: flex;
     align-items: center;
@@ -54,17 +58,20 @@
     text-align: left;
 }
 .failur-heading {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 40px;
 
 }
 .failur-pera{
     font-size: 16px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    color: #444343;
 }
-.failur-text ul{
+.failur-text li{
     list-style: none;
+    line-height: 2;
+    color: #444343;
 }
 
 /* my plan css */
@@ -74,7 +81,7 @@
     margin-top: 150px;
 }
 .plan-heading{
-    font-weight: 700;
+    font-weight: 900;
     font-size: 40px;
     padding-bottom: 50px;
 }
@@ -83,7 +90,7 @@
     justify-content: space-around;
 }
 .plan-p-head{
-    font-weight: 700;
+    font-weight: 900;
     font-size: 30px;
     padding-bottom: 15px;
 }
@@ -100,14 +107,13 @@
     text-align: left;
     background-image:linear-gradient(to left, rgba(252, 248, 245, 0.14), rgba(215, 94, 53, 0.9)), url(/images/watch.png);
     background-repeat: no-repeat;
-    bac
 }
 .mindset-text{
     margin: 50px;
     padding-top: 100px;
 }
 .mindset-head{
-    font-weight: 700;
+    font-weight: 900;
     font-size: 40px;
     color: white;
     padding-bottom: 20px;
@@ -120,6 +126,48 @@
     background-color: white;
     width: 160px;
     height: 64px;
+    border-radius: 10px;
 }
 /* Footer Design */
-.info head
+footer{
+    background: #151414;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+}
+.info-text{
+    color: white;
+    padding-top: 50px;
+}
+.future-info{
+    margin-left: 200px;
+    margin-right: 350px;
+    margin-top: 100px;
+    text-align: left;
+}
+.info-head{
+    font-weight: 900;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.info-con{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.subscribe{
+    color: white;
+    margin-right: 200px;
+    margin-top: 150px;
+    padding-bottom: 40px;
+}
+.sub-head{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.subscribe input{
+    padding: 20px;
+    padding-right: 158px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
