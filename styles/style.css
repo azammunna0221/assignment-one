@@ -5,7 +5,7 @@
 }
 /* Banner css */
 .banner{
-    background-image: url(/images/banner/banner2.png);
+    background-image: url(../images/banner/banner2.png);
     background-position: absolute;
     width: 100%;
     height: 50em;
@@ -105,7 +105,7 @@
     margin-bottom: 130px;
     height: 300px;
     text-align: left;
-    background-image:linear-gradient(to left, rgba(252, 248, 245, 0.14), rgba(215, 94, 53, 0.9)), url(/images/watch.png);
+    background-image:linear-gradient(to left, rgba(252, 248, 245, 0.14), rgba(215, 94, 53, 0.9)), url(../images/watch.png);
     background-repeat: no-repeat;
 }
 .mindset-text{
