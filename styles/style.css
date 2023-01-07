@@ -6,8 +6,9 @@
 /* Banner css */
 .banner{
     background-image: url(/images/banner/banner2.png);
+    background-position: absolute;
     width: 100%;
-    height: 100em;
+    height: 50em;
     background-repeat: no-repeat;
 }
 .banner-text{
@@ -26,7 +27,7 @@
     padding-bottom: 32px;
 }
 .pri-btn{
-    position: absolute;
+    
     right: 200px;
     font-weight: 600;
     font-size: 20px;
@@ -38,3 +39,87 @@
 }
 
 /* My failures of previous year */
+.failur {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 200px;
+    height: 50em;
+    width: 100%;
+}
+.failur-text {
+    padding-top: 200px;
+    padding-left: 60px;
+    padding-right: 500px;
+    text-align: left;
+}
+.failur-heading {
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.failur-pera{
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.failur-text ul{
+    list-style: none;
+}
+
+/* my plan css */
+.plan{
+    text-align: center;
+    margin: 0px 200px;
+    margin-top: 150px;
+}
+.plan-heading{
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-p-head{
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* Mindset banner css */
+.mindset{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    height: 300px;
+    text-align: left;
+    background-image:linear-gradient(to left, rgba(252, 248, 245, 0.14), rgba(215, 94, 53, 0.9)), url(/images/watch.png);
+    background-repeat: no-repeat;
+    bac
+}
+.mindset-text{
+    margin: 50px;
+    padding-top: 100px;
+}
+.mindset-head{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+}
+.mindset-btn{
+    font-weight: 600;
+    font-size: 20px;
+    color:#F25B23;
+    border: 0px;
+    background-color: white;
+    width: 160px;
+    height: 64px;
+}
+/* Footer Design */
+.info head
